@@ -31,7 +31,7 @@ def email():
     asunto = request.args.get('asunto')
     mensaje = request.args.get('contenido')
     message = Mail(
-        from_email='smgarzon22@gmail.com',
+        from_email='smgarzon222@gmail.com',
         to_emails=destino,
         subject=asunto,
         html_content=mensaje)
